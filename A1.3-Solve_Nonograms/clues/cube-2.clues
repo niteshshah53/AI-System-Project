@@ -1,0 +1,39 @@
+rect 18 19
+#ffffff #000000 #00ff00 #00ffff #ff00ff #0000ff #ffff00 #ff0000
+
+
+12a
+2a 3g 3e 3g 2a
+2a 3c 3f 3b 3a
+2a 3f 3c 3d 2a 1e 1a
+12a 1c 1e 1a
+1a 6e 3f 1a 1g 1c 1e 1a
+1a 6e 3f 1a 1g 1c 1d 1a
+1a 6e 3f 1a 1g 1b 1d 1a
+1a 3g 3b 3g 1a 1e 1b 1d 1a
+1a 3g 3b 3g 1a 1e 1b 1e 1a
+1a 3g 3b 3g 1a 1e 1f 1e 1a
+1a 3e 3f 3d 1a 1b 1f 1e 1a
+1a 3e 3f 3d 1a 1b 1f 2a
+1a 3e 3f 3d 1a 1b 2a
+13a
+
+
+12a
+3a 3e 3g 3e 1a
+2a 1f 1a 3e 3g 3e 1a
+2a 1c 1f 1a 3e 3g 3e 1a
+1a 1g 1c 1f 1a 3e 3b 3f 1a
+1a 1g 2c 1a 3e 3b 3f 1a
+1a 1g 1f 1c 1a 3e 3b 3f 1a
+1a 1e 1f 1c 1a 3f 3g 3d 1a
+1a 1e 1f 1d 1a 3f 3g 3d 1a
+1a 1e 1b 1d 1a 3f 3g 3d 1a
+1a 1g 1b 1d 11a
+1a 1g 1b 2a 3g 3e 3b 1a
+1a 1g 2a 3c 3b 3f 2a
+3a 3e 3d 3e 2a
+13a
+
+
+

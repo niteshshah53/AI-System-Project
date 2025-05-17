@@ -1,0 +1,7 @@
+__pycache__/
+solution/*.html
+generated/
+randomly_generated/
+final_rect8/
+old_rect_original/
+*.docx
