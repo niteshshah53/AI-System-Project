@@ -1,0 +1,120 @@
+<Problems>
+  <Problem id="0" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Avasavada.m-h</Author>
+  </Problem>
+  <Problem id="1" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Agoya.eitoku</Author>
+  </Problem>
+  <Problem id="2" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Aadams.ernst-wilhelm</Author>
+  </Problem>
+  <Problem id="3" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Aueki.sei-ichiro</Author>
+  </Problem>
+  <Problem id="4" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Aholmes.john-p</Author>
+  </Problem>
+  <Problem id="5" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Akalisch.gerhard-k</Author>
+  </Problem>
+  <Problem id="6" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Azaharescu.alexandru</Author>
+  </Problem>
+  <Problem id="7" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Amaurizi.brian-n</Author>
+  </Problem>
+  <Problem id="8" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Aalpay.daniel</Author>
+  </Problem>
+  <Problem id="9" type="keywords">
+    <Author>https://zbmath.org/authors/?q=ai%3Ahan.yongsheng</Author>
+  </Problem>
+  <Problem id="10" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46E</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A46G</Classification>
+  </Problem>
+  <Problem id="11" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A47A16</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A47A15</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A30</Classification>
+  </Problem>
+  <Problem id="12" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46L99</Classification>
+  </Problem>
+  <Problem id="13" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A32A38</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A46J20</Classification>
+  </Problem>
+  <Problem id="14" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46J30</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A30D</Classification>
+  </Problem>
+  <Problem id="15" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46H10</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A46J20</Classification>
+  </Problem>
+  <Problem id="16" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46A</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A47A15</Classification>
+  </Problem>
+  <Problem id="17" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A46J45</Classification>
+  </Problem>
+  <Problem id="18" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A47B47</Classification>
+    <Classification>https://zbmath.org/classification/?q=cc%3A47A</Classification>
+  </Problem>
+  <Problem id="19" type="msc-intersection">
+    <Classification>https://zbmath.org/classification/?q=cc%3A93D15</Classification>
+  </Problem>
+  <Problem id="20" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Acommutative+Banach+algebra</Keyword>
+    <BeforeYear>2017</BeforeYear>
+    <AfterYear>1983</AfterYear>
+  </Problem>
+  <Problem id="21" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Auniform+algebra</Keyword>
+    <BeforeYear>2025</BeforeYear>
+    <AfterYear>1983</AfterYear>
+  </Problem>
+  <Problem id="22" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Ainvariant+subspace</Keyword>
+    <BeforeYear>2014</BeforeYear>
+    <AfterYear>1980</AfterYear>
+  </Problem>
+  <Problem id="23" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3ABanach+algebra</Keyword>
+    <BeforeYear>2016</BeforeYear>
+    <AfterYear>1992</AfterYear>
+  </Problem>
+  <Problem id="24" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Ainvariant+subspaces</Keyword>
+    <BeforeYear>2020</BeforeYear>
+    <AfterYear>1978</AfterYear>
+  </Problem>
+  <Problem id="25" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Aspectrum</Keyword>
+    <BeforeYear>2012</BeforeYear>
+    <AfterYear>1978</AfterYear>
+  </Problem>
+  <Problem id="26" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3AHardy+spaces</Keyword>
+    <BeforeYear>2020</BeforeYear>
+    <AfterYear>1979</AfterYear>
+  </Problem>
+  <Problem id="27" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3AShilov+boundary</Keyword>
+    <BeforeYear>2010</BeforeYear>
+    <AfterYear>1983</AfterYear>
+  </Problem>
+  <Problem id="28" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3AHardy+space</Keyword>
+    <BeforeYear>2015</BeforeYear>
+    <AfterYear>1985</AfterYear>
+  </Problem>
+  <Problem id="29" type="top-authors">
+    <Keyword>https://zbmath.org/?q=ut%3Amaximal+ideal+space</Keyword>
+    <BeforeYear>2010</BeforeYear>
+    <AfterYear>1981</AfterYear>
+  </Problem>
+</Problems>

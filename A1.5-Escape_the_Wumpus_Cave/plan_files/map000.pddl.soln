@@ -1,0 +1,8 @@
+(walk agent loc-3-7 loc-2-7 north)
+(walk agent loc-2-7 loc-2-8 east)
+(walk agent loc-2-8 loc-2-9 east)
+(walk agent loc-2-9 loc-3-9 south)
+(walk agent loc-3-9 loc-3-10 east)
+(walk agent loc-3-10 loc-3-11 east)
+(walk-off-map agent loc-3-11 east)
+; cost = 7 (unit cost)

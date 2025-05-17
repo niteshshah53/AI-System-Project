@@ -1,0 +1,8 @@
+push south
+push south
+walk west
+walk west
+push south
+push west
+walk south
+walk south

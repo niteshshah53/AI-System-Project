@@ -1,0 +1,4 @@
+(push agent loc-4-8 loc-5-8 loc-6-8 south)
+(walk agent loc-5-8 loc-6-8 south)
+(jump-off-map agent loc-6-8 loc-7-8 south)
+; cost = 3 (unit cost)

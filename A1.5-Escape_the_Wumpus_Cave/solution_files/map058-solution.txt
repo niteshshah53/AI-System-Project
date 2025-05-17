@@ -1,0 +1,2 @@
+walk west
+jump south

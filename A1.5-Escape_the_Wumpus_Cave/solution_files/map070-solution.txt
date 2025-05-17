@@ -1,0 +1,12 @@
+push north
+push north
+walk south
+walk west
+unlock west
+walk west
+walk south
+push west
+walk south
+walk south
+walk south
+jump south

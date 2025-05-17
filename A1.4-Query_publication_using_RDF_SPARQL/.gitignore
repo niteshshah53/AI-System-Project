@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+Expected Example Sol/
+*.bz2
+*.jar
+*.jnl
+big-rdfdata.rdf
+output_details.txt
+python
+rules.log
+*.docx

@@ -1,0 +1,17 @@
+walk east
+push east
+push east
+walk west
+walk west
+walk west
+shoot west
+walk west
+walk west
+push south
+walk north
+walk north
+unlock west
+walk west
+walk west
+walk west
+walk west

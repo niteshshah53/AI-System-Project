@@ -1,0 +1,7 @@
+push north
+walk east
+push south
+walk west
+shoot south
+walk south
+walk south

@@ -1,0 +1,10 @@
+walk south
+walk east
+walk east
+walk north
+walk north
+walk east
+walk east
+walk north
+walk east
+walk east

@@ -1,0 +1,4 @@
+push south
+walk east
+jump north
+jump north

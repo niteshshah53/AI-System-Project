@@ -1,0 +1,1508 @@
+<Solutions>
+  <Solution id="0">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Amykhailets.volodymyr-a&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneralized+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocal+regularity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparabolic+initial-boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adissipative+extension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymmetric+quasidifferential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amaximal+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aregularization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aselfadjoint+extensions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+Sturm-Liouville+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimal+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amaximal+dissipative+extensions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amaximal+accumulative+extensions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniform+resolvent+approximation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aorthogonal+series</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AOrlicz+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ATandori+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aunconditional+almost-everywhere+convergence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+gaps</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astability+set</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHill-Schr%C3%B6dinger+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainstability+set</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aa+priori+estimate</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aregular+elliptic+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander-Volevich-Paneyakh+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arefined+scale+of+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apseudodifferential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASobolev+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aisotropic+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apseudoconvex+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperiodic+eigenvalue+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+potential</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+asymptotics</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anegative+Sobolev+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aeigenvalue+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+equation+with+a+distributional+coefficient</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFredholm+property</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aregularly+varying+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ascale+of+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asystem+of+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AKiguradze+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+pseudo-differential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation+with+function+parameter</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aisotropic+H%C3%B6rmander+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchr%C3%B6dinger+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+gap</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFriedrichs+extension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aform-sum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aessential+selfadjointness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aone-dimensional+Schr%C3%B6dinger+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astrongly+singular+potential</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGreen+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aill-posed+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturm-Liouville+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander+function+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHilbert+scales</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aself-adjoint+extension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGreen+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturm-Liouville+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGreen+matrix</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasiderivative</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasidifferential+expression</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aresolvent+convergence+of+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHilbert+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+partial+differential+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuous+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHill%27s+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AAvakumovich%27s+class</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistributional+potentials</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHill-Schr%C3%B6dinger+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFredholm+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aindex+of+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainhomogeneous+boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aindex</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASobolev-Slobodetskiy+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclosed+compact+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation+Hilbert+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneralized+resolvent</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasi-differential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuity+with+respect+to+parameter</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconvergence+of+Green+matrices</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneral+boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniform+convergence+together+with+derivatives</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adiscrete+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aself-adjoint+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistribution+of+eigenvalues</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoperator-valued+non-continuous+coefficients</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adeficiency+indices</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymmetric+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+theory+of+periodic+differential+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+value+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apurely+residual+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchr%C3%B6dinger+operator+with+local+point+interactions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumerical+range</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asectorial+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistribution+of+discrete+spectra</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aasymptotics+of+the+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aeigenvalue+distribution+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astrongly+elliptic+differential+expression</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturm-Liouville+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aeigenvalue+distribution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoperator+coefficient</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aremainder+estimate</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuity+in+parameter</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afirst-order+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFredholm+boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aordinary+differential+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Awell-posedness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFredholm+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aself-adjointness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apoint+interactions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemi-boundedness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adiscreteness+of+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocalization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aselfadjointness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astructure+of+the+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquantum+mechanics</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchr%C3%B6dinger+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+problems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aone-dimensional+Schr%C3%B6dinger+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADirichlet+Conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANewmann+Conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASpectral+Asymptotics+of+Boundary+Value+Problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturm-Liouville+Operator+Equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASelf-Adjoint+Extensions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASymmetric+Operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AClassification+of+Domains</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALaplace+Operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASpectral+Theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aasymptotic+formulae</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectrum+of+the+Laplace+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aselfadjoint+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aasymptotic+distribution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumber+of+eigenvalues</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aformally+symmetric+positive+elliptic+differential+expression</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+problems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturm-Liouville+operator+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AWeyls+hypothesis</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aasymptotics+of+distribution+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apositive+symmetric+differential+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apreassigned+subsequence+of+eigenvalues</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aselfadjoint+extensions+with+prescribed+properties+of+the+spectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AWeyl+asymptotics</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANeumann+extension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistribution+function+of+eigenvalues+of+finite+multiplicity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+properties</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHamiltonian</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchr%C3%B6dinger+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aone-dimensional</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adiscrete+spectrum+criteria</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+value+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afractional-linear+transformation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aabstract+wave+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28J%5C%29-unitary+operator+matrix</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+analysis</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AKiev</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AWork+collection</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asmooth+elliptic+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectral+asymptotic+formulae</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afunctional+analysis</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aintegral+operators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoperator+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander-Volevich-Paneyah+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocal+smoothness+of+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6rmander-Volevich-Paneah+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocality</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonselfadjoint+differential+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asectoriality</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASobolev+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aisotropic+H%C3%B6rmander+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apairs+of+Hilbert+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation+functor</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+boundary-value+proble</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afunction+spaces+of+H%C3%B6rmander-Volevich-Paneyah+type</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperturbation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchwartz+distribution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperiodic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemiperiodic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclosed+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocal+regularity+of+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Athe+Lions-Magenes+theorems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anegative+Sobolev+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asystem+of+first+order+linear+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+triplet</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aregularisation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+Sturm-Liouville+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasi-derivative</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASobolev+scale</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+operator+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+perturbation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemi-periodic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHill+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+periodic+potential</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMenshov-Rademacher+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHilbert+scale</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aapproximation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+coefficient</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuity+in+a+parameter</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amultipoint+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+differential+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGreen%27s+matrix</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistribution+potentials</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alimit+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuous+dependence+of+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asystem+of+first+order</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinuous+dependence+of+Green%27s+matrix</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amaximal+dissipative+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+triples</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomplex+interpolation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterpolation+with+a+function+parameter</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AOR-varying+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquadratic+forms</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimal+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astrongly+singular+potentials</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aslowly+varying+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparabolic+initial-boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aisomorphism+property</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocalization+principles</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adistribution+potential</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemiboundedness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asystem+of+ordinary+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+boundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADirac+measure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ARadon+measure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneral+boundary+value+problems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASlobodetsky+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6lder+space</Keyword>
+  </Solution>
+  <Solution id="1">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Anoda.tomonori&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Amoment+map</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymplectic+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adually+flat+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astatistical+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astatistical+model</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomplex+space+form</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHessian+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHessian+metric</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomplete+affine+connection</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AK%C3%A4hler+immersion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AK%C3%A4hler+metric+of+negative+constant+holomorphic+sectional+curvature</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apositive+constant+Hessian+sectional+curvature</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+element</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ABerger%27s+dual+symmetric+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ahyperbolic+element</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALagrangian+reflective+submanifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apara-Hermitian+symmetric+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apseudo-Hermitian+symmetric+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agroup+actions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Areduction</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apresymplectic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AVaisman+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aharmonic+foliations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemisimple+Lie+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acohomology+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Areal+flag+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparacomplex+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ahyperbolic+adjoint+orbit</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALaplacian+comparison+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amultiplier+Hermitian+manifolds</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asub-mean-value+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amomentum+map</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anon-K%C3%A4hler+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocally+conformal+symplectic+manifold</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainstability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymmetric+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ahomogeneous+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aharmonic+foliation</Keyword>
+  </Solution>
+  <Solution id="2">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Afrougny.christiane&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Aaddition</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparallel+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agolden+mean</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumeration</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumeration+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adynamical+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agenerating+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asuccessor+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acarry+propagation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agreedy+numeration+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alanguage+signature</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apositive+rational+series</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arational+base+numeration+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+automata</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumeration+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aodometer</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymbolic+dynamical+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperiodicity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APisot+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acubic+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acongruence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afree+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afree+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asyntactic+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHotz+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHotz+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontext-free+languages</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ARees+quotient</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubsequential+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asequential+machines</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite-state+machine</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubsequential+machine</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubsequential+machines</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abounded+delay</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aon-line+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubsequential+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspecial+issue</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AComputers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AReal+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afiniteness+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aformal+language+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubgroup+of+a+finitely+generated+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasicrystals</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-integers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AIRS</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agenerator+of+the+full+AFL</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anon-terminal+separation+property</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgebraic+construction+of+the+Hotz+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontext-free+grammar</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agenerators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arelations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asyntactical+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avery-simple+grammar</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asofic+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arepresentation+of+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+numeration+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anormalization+of+integers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite-state+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atransducer</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+recurrence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arewriting+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arational+relations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+2-tape+automata</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alength-preserving+relations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asymbolic+dynamics</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28%5Ctheta%5C%29-expansions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arepresentations+of+real+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+recurrence+with+integral+coefficients</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anormalization+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asynchronization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afree+monoids</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASalem+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspectrum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgebraic+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adigit+set</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aautomaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asofic+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apisot+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AThue-Morse+sequence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atranscendence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aautomatic+sequence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aiteration+of+continuous+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniform+morphism</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aunivoque+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AJosephus+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aradix+expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMahler%27s+Z-numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apowers+of+rationals</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aautomata</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFibonacci+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimal+weight%2C+beta-expansions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A2-tape+automata</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AConference</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AProceedings</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASpecial+issue</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASaint-%C3%89tienne+%28France%29</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agreedy+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquadratic+Pisot+units</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomputer+arithmetic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AContext+Free+Languages</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFull+Abstract+Families+of+Languages</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANongenerators</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AQuasi-Rational</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AVery+Simple+Language</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asurvey</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-expansions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acourse</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+numeration+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumeration+base</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+recurrence+relation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anormalization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+two+tape+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimal+polynomial+of+a+Perron+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AOn-line+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFinite+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADigit+set+conversion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANumber+representation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AParry+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amultiplicatively+dependent+numeration+bases</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APisot+numerations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atiling</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMeyer+sets</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28%5Cbeta%5C%29-expansions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainflation+rules</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-integer</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquadratic+PV+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AQuasicrystal</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acongruences</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agroups</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Across-sections</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arewriting+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APisot+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ATilings</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AQuasicrystals</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ABeta-lattices</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APlane+groups</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+%5C%28%5Cbeta%5C%29-expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMahler+type-numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atransition+matrices</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aunivoque</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28%5Cbeta%5C%29-expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28%5Calpha%5C%29-adic+expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apalindromic+complexity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ATribonacci+number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-number</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abeta-representation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontinued+fractions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASturmian+graphs</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afinite+state+machines</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arepresentation+of+integers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atransducers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Awords</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28U%5C%29-systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abase+changing</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arepresentation+of+reals</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Azero+%28B%C3%BCchi%29+automaton</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28p%5C%29-adic+numbers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arational+base+number+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aonline+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amultiplication</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adivision</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apreprocessing</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AB%C3%BCchi+automaton</Keyword>
+  </Solution>
+  <Solution id="3">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Afilali.ghali&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+solid-on-solid+%28SOS%29+model</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adynamical+reflection+algebra</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afactorizing+Drinfel%27d+twist</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apartition+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspin+chains</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgebraic+Bethe+ansatz</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASOS+models</Keyword>
+  </Solution>
+  <Solution id="4">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Adaescu.ovidiu&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Aart+gallery</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abrachytherapy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alink+distance</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abiopsy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aneedle+steering</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperformance+study</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimum-weight+polygonal+path</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweighted+polygonal+subdivision</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFarthest-point+queries</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALine-segment+queries</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APolygonal+path+simplification</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aline+facility+location</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apolygonal+paths</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aapproximate+polygonal+chains</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainfinite+beam+criterion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acombinatorial+optimization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arobustness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asum+of+linear+fractional+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apath+simplification</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aangle+constraint</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoff-line+search</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquery</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afarthest+point</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asegment</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aterrain+guarding+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aaltitude+terrain+guarding+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amonotone+mountains</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperfect+polygons</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auni-monotone+polygons</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aapproximation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomputational+geometry</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apolygonal+curve</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aapproximation+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFr%C3%A9chet+distance</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweighted+regions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afarthest+line+segment</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alargest+triangle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asmallest+triangle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparametric+search</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aterrain+guarding</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avisibility+algorithms</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclosest+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atwo+dimensions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageometric+bound</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amotion+planning</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclearance</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acircular+arc+intersection</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acircular+sector+emptiness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acircular+sector+intersection</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apolynomial+time</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimum+separation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+link+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+penetration+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweighted+region</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweighted+subdivision</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arigidity+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arigid+graph</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconvex+polygon</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afair+partitioning</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclipped+trees</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amarriage-before-conquer</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aprune-and-search+technique</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adynamic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Abichromatic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aseparating+circle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aspace-efficient+algorithms</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+path+problems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomputational+complexity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avisibility</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperspective+view</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amoving+point+of+view</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageometric+optimization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparametric+linear+programming</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+fractional+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoff-line+ratio+query</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageometric+techniques</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+penetration</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%5C%28n%5C%29-vertex+polygonal+path</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amin-%5C%23+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AEREW+PRAM</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AAlgorithms</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AParallel+computing</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APartitioning</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASorting</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMerging</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMulti-selection</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+path</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avisibility+graph</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amap</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agateway</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGeometric+path+query</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acutting+sequence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apolygon+cutting</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aline+cutting</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aray+cuttable+polygon</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aray+cutting</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aapproximation+algorithms</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Astock+cutting</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acommunication+networks</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aintersection+of+balls</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adipolar+spanning+tree</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANP+complete</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acolor-spanning+set</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconvex+hull</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aimprecise+data</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apolygonal+obstacles</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apath+query</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aproximity+queries</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aminimum+separating+circle</Keyword>
+  </Solution>
+  <Solution id="5">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Agrigorenko.nikolai-l&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Acontrol+under+uncertainty</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+conditions+for+solvability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+dynamic+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aevasion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuit</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amany-person</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AIntegral+Contstraints</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ATwo-Person+Differential+Game+of+Pursuit+and+Evasion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasilinear+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APontrjagin%27s+first+direct+method</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adynamic+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+control+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+differential+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+differential+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adelay+in+information</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferent+information+patterns</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+evasion+strategy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%28linearized%29+adjoint+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHamiltonian.</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumerical+experiments</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimization+problem+with+integral+performance+functional</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atwo-sided+control+constraints</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aopen-loop+control</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adynamic+game</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+model+of+motion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuit+and+evasion+games</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumerical+algorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+control</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APontryagin%27s+maximum+principle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonstationary+dynamic+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontrol+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontrol+of+uncertain+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afixed+final+times</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Athree-player+positional+game</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amodel+of+mining+and+exploring+of+mineral+resources</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary-value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aeconomic+growth+model</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aterminal+control</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconstrained+control</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+control+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+systems</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALotka-Volterra+competition+model</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontrol+model+of+cancer+dynamics</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acontrol+problem+with+state+constraints</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aevasion+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aone+evader</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuer+interaction</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aseveral+controlled+objects</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+conditions+for+successful+pursuit</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aseveral+pursuers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+solvability+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ar-fold+coincidence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasilinear+differential+game</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amethod+of+guaranteed+nonworsening+of+position</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+conditions+for+termination</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atwo+evaders</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amany+pursuers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asuccessful+capture+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+conditions+of+capture+and+evasion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Athree+pursuers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atwo+evadors</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asuccessful+pursuit+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomputation+of+strategies</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adegree+of+informedness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adiscrimination+in+information</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asufficient+termination+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuit+of+an+evader</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aseveral+controlled+pursuers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adifferential+game</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A2-person+zero-sum</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuit+by+several+objects</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aoptimal+policy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconvex+compact+control+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aconvex+compact+target+space</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainertia</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asolvability+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acounterstrategy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apursuit+strategy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alinear+differential+game</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingle+evader</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agroup+of+pursuers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aprogram+strategy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agroup+pursuit</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afirst+direct+method</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aincomplete+information</Keyword>
+  </Solution>
+  <Solution id="6">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Apennington.jeffrey-s&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Adispersive+water+wave+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ANon-perturbative+string+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asuperconformal+minimal+models</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3At%27+Hooft+limit</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AQCD</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aresummation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ascattering+amplitudes</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aextended+supersymmetry</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asupersymmetric+gauge+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aintegrable+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APainlev%C3%A9+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adispersive+water+wave+hierarchy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3A%27t+Hooft+and+Polyakov+loops</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AWilson</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amachine+learning</Keyword>
+  </Solution>
+  <Solution id="7">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Adong.guangchang&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Afairing+process</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniformly+elliptic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aviscosity+supersolutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AAleksandrov+maximum+principle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Arate+of+convergence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aplate+bending</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asimilar+to+binary+spline</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asimple+interpolation+of+rational+function-difference+spline+interpolation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainformation+hiding</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AArnold+transformation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aimage+scramble</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AGaussian+curvature</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aisometric+imbeddings</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgorithm</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amesh+smoothing</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anear-interpolation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anumerical+examples</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquadratic+optimization</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avertex+tolerance</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asecond+order+differential+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asingular+initial+value</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aporous+medium+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniqueness</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonnegative+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AExistence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adegenerate+quasilinear+parabolic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afirst+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aunique</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquasilinear</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6lder+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneralized+positive+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aviscosity+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainterior+regularity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Auniformly+fully+nonlinear+elliptic+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweak+structure+condition</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aelliptic+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afully+nonlinear</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ameasurable+coefficients</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aexistence</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparabolic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afast+diffusion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aa+priori+estimate</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aboundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+telegraph+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchauder+fixed+point+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALandesman-Lazer+type+condition</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aresonant+condition</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainitial+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+Schr%C3%B6dinger+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweak+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adecay+and+smooth+properties</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweak+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADirichlet+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainfinitely+many+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agrowth+conditions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asecond+order+self-adjoint%2C+uniformly+elliptic+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ACauchy-Dirichlet+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aclassical+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afully+nonlinear+uniformly+parabolic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+oblique+derivative+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aaccretive+operator</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AH%C3%B6lder+estimate</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anonlinear+oblique+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aparabolic+distance</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adivergence+form</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHarnack+inequality</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainitial-boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperiodic+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aregularity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asolvability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afully+nonlinear+parabolic+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adensity+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adegenerate+quasilinear+parabolic+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AAleksandrov+and+Bony+maximum+principles</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ahigher-dimensional+telegraph+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ainitial+value+problem+for+a+nonlinear+Schr%C3%B6dinger+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amulti-+dimensional+subsonic+flows+around+an+obstacle</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asecond+order+quasilinear+parabolic+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aperturbation+method</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aviscosity+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADirichlet+problem+of+elliptic+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afirst+boundary+value+problem+of+parabolic+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apartial+differential+equations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomplex+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aexterior+domain</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asubsonic+flows</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adisturbance+energy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aexistence+of+positive+solutions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemilinear+elliptic+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amixed+boundary+value+problem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acubic+spline+curves</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afairing+procedure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asurvey</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asystems+of+elliptic+and+parabolic+type</Keyword>
+  </Solution>
+  <Solution id="8">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Afornasiero.antongiulio&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3ABaire+structures</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+complete+structures</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apseudo-enumerable+sets</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adense+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageometric+structure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alovely+pair</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amatroid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apregeometry</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ao-minimality</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asheaf+cohomology</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Areal+line</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+connected</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ARolle+leaf</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asecond-order+arithmetic</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+complete+expansion</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ALebesgue%27s+differentiation+theorem</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ABaire</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+complete+structure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apower+series</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avaluations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHenselian+fields</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AInteger+part</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atruncation-closed+embeddings</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avalued+field</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afields+of+generalized+power+series</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acomplement+to+valuation+ring</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acompletion+of+an+ordered+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atruncation+closed+embedding</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ABaire+spaces</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APfaffian+functions</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinable+sets</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHausdorff+measure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ACauchy-Crofton+formula</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acoarea+formula</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AWhitney+arc+property</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ao-minimal+structure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atopological+complexity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3APfaffian+closure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aalgebraic+entropy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aamenable+semigroup</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atopological+entropy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asemigroup+action</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aamenable+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Agroup+endomorphism</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHausdorff+dimension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Apacking+dimension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atopological+dimension</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aexpansions+of+the+ordered+real+additive+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aexponential+polynomials</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ASchanuel%27s+conjecture</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Ageneric+solution</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinable+complete+structures</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aaxiomatizability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adecidability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Avaluation+theory</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aordered+abelian+group</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3ADedekind+cut</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adom</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adouble+ordered+monoid</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aopen+core</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+Baire+structure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefinably+complete+first-order+expansions+of+ordered+fields</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Alocally+o-minimal+structure</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adichotomy</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Adefining+the+integers</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AMinkowski+dimension+zero</Keyword>
+  </Solution>
+  <Solution id="9">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?keyword
+    WHERE 
+    {   
+        ?record info:author &lt;https://zbmath.org/authors/?q=ai%3Awei.qun&gt;. 
+        ?record info:keyword ?keyword.
+    }
+    </Query>
+    <Keyword>https://zbmath.org/?q=ut%3Acolor+noises</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anormalized+correlation+function</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweak+measurement</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AHardy%27s+paradox</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acoupling+strength</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Anegative+probability</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3AFokker-Planck+equation</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amean+first+passage+time</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aadditive+white+noise</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Acorrelation+noises</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Amultiplicative+colored+noise</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Atumor+cell+growth+system</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aquantum+state+tomography</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aweak+value</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Areconstructed+state</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Asuperconductivity</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Aphase+fluctuations</Keyword>
+    <Keyword>https://zbmath.org/?q=ut%3Afullerides</Keyword>
+  </Solution>
+  <Solution id="10">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A94A60&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A68P27&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A6553582</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6553583</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164223</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164224</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164225</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164226</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164238</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7164343</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6969817</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6974417</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6974419</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6974544</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6974570</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6974572</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6976495</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7222820</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7222847</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7229757</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7243135</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7244939</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7245356</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7257056</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7267141</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7137617</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7140327</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7143710</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7268294</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7290078</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6483805</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6915892</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6915893</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6915894</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6400201</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6796754</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7113059</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7117451</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7007286</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7007287</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7196574</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7334765</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7334767</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7334774</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7334882</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7205579</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7205591</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7205592</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6495389</Paper>
+  </Solution>
+  <Solution id="11">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A62&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A65&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A78A45&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A6458763</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7180446</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7000898</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7305947</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6610042</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5722230</Paper>
+    <Paper>https://zbmath.org/?q=an%3A149348</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5919529</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6455188</Paper>
+    <Paper>https://zbmath.org/?q=an%3A36946</Paper>
+  </Solution>
+  <Solution id="12">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A00B15&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A00A35&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A97D40&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A5944079</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5785483</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6291002</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5817043</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6388855</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5594033</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5614910</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6221789</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7109925</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5645043</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5898747</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6049020</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6053085</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5907573</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6088714</Paper>
+  </Solution>
+  <Solution id="13">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A26E35&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A60A&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A12855</Paper>
+    <Paper>https://zbmath.org/?q=an%3A4190789</Paper>
+    <Paper>https://zbmath.org/?q=an%3A4194807</Paper>
+    <Paper>https://zbmath.org/?q=an%3A598112</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6371590</Paper>
+    <Paper>https://zbmath.org/?q=an%3A3774574</Paper>
+    <Paper>https://zbmath.org/?q=an%3A3580520</Paper>
+    <Paper>https://zbmath.org/?q=an%3A1516952</Paper>
+    <Paper>https://zbmath.org/?q=an%3A1839948</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6417636</Paper>
+    <Paper>https://zbmath.org/?q=an%3A2229520</Paper>
+  </Solution>
+  <Solution id="14">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A03B&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A03A10&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A00&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A6532317</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5522901</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6508106</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7222686</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6539286</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5948527</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6854387</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6854759</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6855949</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6760218</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6790759</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6599675</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6115228</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7029730</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6293517</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6348347</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6635977</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5822066</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6594696</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7047273</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6898574</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6854753</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5779190</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6694362</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6065482</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6477519</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6477520</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7206797</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6423792</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5822588</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6416054</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6518022</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5724517</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5948505</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6023268</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6023269</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6032273</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6032274</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5902340</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6855950</Paper>
+  </Solution>
+  <Solution id="15">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A97-01&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A11&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A00A35&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A6062399</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6065491</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6875531</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6875554</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6750648</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5013074</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5233086</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5233209</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6376287</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6391397</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6112802</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6193968</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6585116</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6593942</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6923495</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5356425</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5356427</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6541902</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6447527</Paper>
+    <Paper>https://zbmath.org/?q=an%3A5716807</Paper>
+    <Paper>https://zbmath.org/?q=an%3A2107180</Paper>
+  </Solution>
+  <Solution id="16">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A00B15&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A65-06&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A35R&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A6333646</Paper>
+    <Paper>https://zbmath.org/?q=an%3A646217</Paper>
+    <Paper>https://zbmath.org/?q=an%3A1516964</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7281886</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6354630</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7174728</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7089101</Paper>
+  </Solution>
+  <Solution id="17">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A00&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A34D05&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A7022103</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6313448</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6319743</Paper>
+  </Solution>
+  <Solution id="18">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A00A&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A35&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A12&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A4064339</Paper>
+    <Paper>https://zbmath.org/?q=an%3A1479857</Paper>
+    <Paper>https://zbmath.org/?q=an%3A790097</Paper>
+  </Solution>
+  <Solution id="19">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT DISTINCT ?record
+    WHERE 
+    {
+    ?record info:classification ?class0. ?record info:classification ?class1. ?record info:classification ?class2.
+    FILTER(STRSTARTS(STR(?class0), &quot;https://zbmath.org/classification/?q=cc%3A60K&quot;)) FILTER(STRSTARTS(STR(?class1), &quot;https://zbmath.org/classification/?q=cc%3A00B25&quot;)) FILTER(STRSTARTS(STR(?class2), &quot;https://zbmath.org/classification/?q=cc%3A00B05&quot;))
+    }
+    </Query>
+    <Paper>https://zbmath.org/?q=an%3A7124765</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7267572</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6841518</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6656847</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6656883</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6658010</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7064007</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6570657</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6893100</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7036457</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7036462</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6869384</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6869398</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6656797</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7285571</Paper>
+    <Paper>https://zbmath.org/?q=an%3A6656886</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7036464</Paper>
+    <Paper>https://zbmath.org/?q=an%3A7329562</Paper>
+  </Solution>
+  <Solution id="20">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Astochastic+differential+games&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1999 &amp;&amp; xsd:integer(?year) &lt; 2018)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="10">https://zbmath.org/authors/?q=ai%3Abensoussan.alain</Author>
+		<Author count="10">https://zbmath.org/authors/?q=ai%3Afrehse.jens</Author>
+		<Author count="7">https://zbmath.org/authors/?q=ai%3Aoksendal.bernt-karsten</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Ayang.peng</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Ayeung.david-wing-kay</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Abuckdahn.rainer</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Ali.juan</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Alin.qian</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Akushner.harold-j</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Agrun.christine</Author>
+  </Solution>
+  <Solution id="21">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Aheteroskedasticity&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1992 &amp;&amp; xsd:integer(?year) &lt; 2021)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="15">https://zbmath.org/authors/?q=ai%3Acribari-neto.francisco</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Agodfrey.leslie-g</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Abaltagi.badi-h</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Ada-gloria-a-lima.maria</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Alutkepohl.helmut</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Ajin.fei</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Achen.cathy-w-s</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Azarkos.spyros-g</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Adufour.jean-marie</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Anewey.whitney-k</Author>
+  </Solution>
+  <Solution id="22">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Aentropy&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1983 &amp;&amp; xsd:integer(?year) &lt; 2019)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="15">https://zbmath.org/authors/?q=ai%3Aebrahimi.nader-d</Author>
+		<Author count="15">https://zbmath.org/authors/?q=ai%3Azhao.zheng</Author>
+		<Author count="14">https://zbmath.org/authors/?q=ai%3Asoofi.ehsan-s</Author>
+		<Author count="13">https://zbmath.org/authors/?q=ai%3Aeinsiedler.manfred-leopold</Author>
+		<Author count="13">https://zbmath.org/authors/?q=ai%3Aweiss.benjamin</Author>
+		<Author count="12">https://zbmath.org/authors/?q=ai%3Alopes.artur-oscar</Author>
+		<Author count="12">https://zbmath.org/authors/?q=ai%3Amendes-france.michel</Author>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Azaripov.rinat-g</Author>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Aledrappier.francois</Author>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Aliu.wenbiao</Author>
+  </Solution>
+  <Solution id="23">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Asubsets&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1977 &amp;&amp; xsd:integer(?year) &lt; 1994)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="14">https://zbmath.org/authors/?q=ai%3Afrankl.peter</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Afuredi.zoltan</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Agronau.hans-dietrich-o-f</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Adaykin.david-e</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Aschrijver.alexander</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Abrouwer.andries-e</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Aerdos.pal</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Anovikova.n-g</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Atodorov.dobromir-t</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Aclements.g-f</Author>
+  </Solution>
+  <Solution id="24">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Alinear+models&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1978 &amp;&amp; xsd:integer(?year) &lt; 2015)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Aghosh.subir</Author>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Asen.pranab-kumar</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Azhao.lincheng</Author>
+		<Author count="7">https://zbmath.org/authors/?q=ai%3Achristensen.ronald</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Achen.xiru</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Akoenker.roger-w</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Apukelsheim.friedrich</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Amckean.joseph-w</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Ajureckova.jana</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Ashao.jun</Author>
+  </Solution>
+  <Solution id="25">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Amultivalued+map&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1997 &amp;&amp; xsd:integer(?year) &lt; 2018)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="17">https://zbmath.org/authors/?q=ai%3Aoregan.donal</Author>
+		<Author count="15">https://zbmath.org/authors/?q=ai%3Aobukhovskii.valeri</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Abenchohra.mouffak</Author>
+		<Author count="8">https://zbmath.org/authors/?q=ai%3Aagarwal.ravi-p</Author>
+		<Author count="7">https://zbmath.org/authors/?q=ai%3Avath.martin</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Ayao.jen-chih</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Apark.sehie</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Antouyas.sotiris-k</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Aandres.jan</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Abalasubramaniam.pagavathigounder</Author>
+  </Solution>
+  <Solution id="26">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Acompressible+Navier-Stokes+equations&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1981 &amp;&amp; xsd:integer(?year) &lt; 2022)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="16">https://zbmath.org/authors/?q=ai%3Axin.zhouping</Author>
+		<Author count="14">https://zbmath.org/authors/?q=ai%3Azhang.ting</Author>
+		<Author count="14">https://zbmath.org/authors/?q=ai%3Afeireisl.eduard</Author>
+		<Author count="13">https://zbmath.org/authors/?q=ai%3Afeistauer.miloslav</Author>
+		<Author count="12">https://zbmath.org/authors/?q=ai%3Afang.daoyuan</Author>
+		<Author count="12">https://zbmath.org/authors/?q=ai%3Aqin.yuming</Author>
+		<Author count="10">https://zbmath.org/authors/?q=ai%3Ahuang.feimin</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Azhao.junning</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Ali.jing</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Adolejsi.vit</Author>
+  </Solution>
+  <Solution id="27">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Aapproximation+of+functions&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1980 &amp;&amp; xsd:integer(?year) &lt; 2020)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Aplatonov.sergei-s</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Asaitoh.saburou</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Amatsuura.tsutomu</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Amusielak.julian</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Agerald.curtis-f</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Awheatley.patrick-o</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Adzyadyk.vladislav-k</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Aheinrich.stefan</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Anabebin.a-a</Author>
+		<Author count="2">https://zbmath.org/authors/?q=ai%3Awojtaszczyk.przemyslaw</Author>
+  </Solution>
+  <Solution id="28">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Acontinuation+methods&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1979 &amp;&amp; xsd:integer(?year) &lt; 2023)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="11">https://zbmath.org/authors/?q=ai%3Arheinboldt.werner-c</Author>
+		<Author count="9">https://zbmath.org/authors/?q=ai%3Aoregan.donal</Author>
+		<Author count="8">https://zbmath.org/authors/?q=ai%3Achien.cheng-sheng</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Aallgower.eugene-l</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Achan.tony-fan-cheong</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Akearfott.baker</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Achang.shing-lin</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Asiyyam.hani-i</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Asyam.muhammed-i</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Amorgan.alexander-p</Author>
+  </Solution>
+  <Solution id="29">
+    <Query>
+    PREFIX info: &lt;https://zbmath.org/infos#&gt;
+    SELECT ?author (COUNT(DISTINCT ?record) as ?count)
+    WHERE 
+    {
+        ?record info:keyword &lt;https://zbmath.org/?q=ut%3Acoupled+oscillators&gt;.
+        ?record info:author ?author.
+        ?record info:year ?year.
+        FILTER(xsd:integer(?year) &gt; 1996 &amp;&amp; xsd:integer(?year) &lt; 2020)
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?count)
+    LIMIT 10
+    </Query>
+		<Author count="10">https://zbmath.org/authors/?q=ai%3Arand.richard-h</Author>
+		<Author count="7">https://zbmath.org/authors/?q=ai%3Akuznetsov.aleksandr-petrovich</Author>
+		<Author count="6">https://zbmath.org/authors/?q=ai%3Apikovsky.arkady-s</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Adorfler.florian</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Akurths.jurgen</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Aashwin.peter</Author>
+		<Author count="5">https://zbmath.org/authors/?q=ai%3Aomelchenko.oleh-e</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Aaihara.kazuyuki</Author>
+		<Author count="4">https://zbmath.org/authors/?q=ai%3Arosenblum.michael-g</Author>
+		<Author count="3">https://zbmath.org/authors/?q=ai%3Azhan.meng</Author>
+  </Solution>
+</Solutions>
